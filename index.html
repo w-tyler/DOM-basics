@@ -1,1 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html>
 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Basics</title>
+
+    <style>
+        .hidden{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Click Counter</h2>
+    <p>Count: <span id="count">0</span></p>
+    <button id="countButton">Click</button>
+
+    <h2>Text Toggler</h2>
+    <p id="toggleText">This text can toggled.</p>
+    <button id="toggleButton">Show/Hide Text</button>
+
+    <h2>Live Input Echo</h2>
+    <input type="text" id="echoInput" placeholder="Type something">
+    <p>You typed: <span id="echoText"></span></p>
+
+    <h2>Dynamic List</h2>
+    <input type="text" id="listInput" placeholder="Enter a item">
+    <button id="addButton">Add</button>
+    <ul id="myList">
+        <li>First item</li>
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
